@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "grego";
+    src: url(Gelio\ Greek\ Diner.ttf);
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    background-color: white;
+    padding: 75px;
+}
+
+body {
+    background-image: url(unsplash_ilQmlVIMN4c.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.pergunta,.sub {
+    font: 400 50px "grego";
+}
+img{
+    width: 170px;
+    height: 150px;
+    border: 1px solid black;
+}
+.azul,.amarelo,.verde,.vermelho{
+    display: flex;
+    align-items: center;
+}
+.azul {
+    background-color: blue;
+
+}
+
+.amarelo {
+    background-color: yellow;
+    color: black;
+}
+
+.verde {
+    background-color: green;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+button {
+    height: 150px;
+    border-radius: 5px;
+    width: 500px;
+    margin: 25px;
+    color: aliceblue;
+    padding: ;
+    /* font-size: 50px; */
+}
+
+.butao-da-resposta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* font-family: "grego"; */
+}
